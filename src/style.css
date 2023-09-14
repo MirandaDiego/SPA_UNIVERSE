@@ -1,0 +1,117 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    background-image: url(images/image01UNIVERSE.png);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+header {
+    display: flex;
+    width: 144rem;
+    background: transparent;
+    gap: 3.2rem;
+    align-items: center;   
+    padding: 3.5rem 22rem;
+}
+nav{
+    display: flex;
+    gap: 3.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+   
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.page0,
+.page2,
+.page3 {
+    width: 144rem;
+    min-height: 100vh;
+    
+}
+h1{
+    font-size: 8.8rem;
+    font-weight: 700;
+    line-height: 6rem;
+    color: #E1E1E6;
+    padding-bottom: 5.4rem;
+}
+button{
+    background: transparent;
+    padding: 1.6rem 3.8rem;
+    border-radius: .5rem;
+    border: .2rem solid #fff;
+    color: #E1E1E6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+}
+button:hover{
+    cursor: pointer;
+    font-weight: bold;
+}
+.page0{
+   display: grid;
+    place-content: center;
+    margin-top:  -10rem;
+    margin-left: 20rem;
+    text-align: center;
+}
+nav a:hover{
+    font-weight: bold;
+}
+.page2,
+.page3{
+  
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    padding-top: 25rem;
+    margin-top:  -15rem;
+ 
+
+}
+.page2 p,
+.page3 p{
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    line-height: 2.9rem;
+    width: 64.8rem;
+}
+
+.zero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/image01UNIVERSE.png);
+    background-size: cover;
+    background-position: center;
+}
+.dois{
+    width: 100%;
+    background-image: url(images/image02UNIVERSE.png);
+    background-size: cover;
+    background-position: center;
+}
+.tres{
+    width: 100%;
+    background-image: url(images/image03UNIVERSE.png);
+    background-size: cover;
+    background-position: center;
+}
